@@ -9,7 +9,7 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: './',
+    assetsPublicPath: '/',
     //这里用来放置域名与接口
     proxyTable: {
       '/api/v1/**':{
