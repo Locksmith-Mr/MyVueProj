@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.wrapper {
+    font-size: 12px;
+}
+
+.wrapper .top-nav {
+    width: 100%;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eee;
+    vertical-align: center;
+}
+
+.wrapper .top-nav .top-nav-bd {
+    margin: 0 auto;
+    width: 1190px;
+    height: 35px;
+}
+
+.wrapper .top-nav ul {
+    line-height: 35px;
+}
+
+.wrapper .top-nav a {
+    outline: none;
+}
+
+.wrapper .top-nav .top-nav-l ul li {
+    float: left;
+    margin-right: 8px;
+}
+
+.wrapper .top-nav .top-nav-r ul li {
+    float: right;
+    margin-right: 8px;
+}
+
+.wrapper .top-nav .top-nav-r ul li span {
+    margin-left: 2px;
+}
+
+.wrapper .top-nav .top-nav-l ul li span {
+    margin-left: 2px;
+}
+
+
+/*顶部导航结束*/
+
+.wrapper .serch-wrap {
+    background-color: #FFF;
+    padding-top: 24px;
+    height: 97px;
+}
+
+.wrapper .serch-wrap .mid-form {
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrapper .serch-wrap .img-l {
+    float: left;
+}
+
+.wrapper .serch-wrap .img-l .logo-bd {
+    background: url(//img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png) 0 0 no-repeat;
+    display: block;
+    margin-left: 22px;
+    padding-top: 58px;
+    width: 142px;
+    height: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.wrapper .serch-wrap .mid-form .search-mid {
+    position: relative;
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd {
+    z-index: 30;
+    position: relative;
+    transform: translateZ(0);
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .top-tab {
+    height: 22px;
+    margin-left: 17px;
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .top-tab .select {
+    color: #FFF;
+    font-weight: 700;
+    background-image: -webkit-linear-gradient(left, #ff9000 0, #ff5000 100%);
+    background-image: -o-linear-gradient(left, #ff9000 0, #ff5000 100%);
+    background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .top-tab li {
+    color: #F40;
+    text-align: center;
+    float: left;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .mid-form-wrap {}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .mid-form-wrap .left-input {
+    margin-right: 74px;
+    border: 2px solid #ff5000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+    overflow: hidden;
+    height: 36px;
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .mid-form-wrap .left-input #q {
+    padding: 6px 0;
+    text-indent: 10px;
+    height: 24px;
+    line-height: 24px;
+    width: 472px;
+    border: none;
+    outline: 0;
+    background: #FFF;
+    *margin-top: -2px;
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .search-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    width: 74px;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: left;
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .search-btn-bd {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #FF4200;
+    cursor: pointer;
+    height: 100%;
+    border: none;
+    width: 100%;
+    float: left;
+}
+
+
+/* .wrapper .serch-wrap .img-r {
+    text-align: center;
+    width: 74px;
+    height: 88px;
+    color: #666;
+    border: 1px solid #eee;
+    float: right;
+}
+
+.wrapper .serch-wrap .img-r .qrcode {
+    margin-left: 6px;
+    width: 62px;
+    height: 62px;
+} */
