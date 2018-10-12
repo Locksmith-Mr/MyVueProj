@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-size: 18px;
+}
+
+a {
+    color: #080808;
+    margin-right: 15px;
+}
+
+.login .head {
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 60px;
+    vertical-align: center;
+    font-weight: 8px;
+}
+
+.login .head .head-l {
+    float: left;
+    box-shadow: 0 0 40px #cac6c6;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.login .head .head-r {
+    float: right;
+    margin-right: 40px;
+}

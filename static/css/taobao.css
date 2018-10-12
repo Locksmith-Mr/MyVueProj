@@ -64,11 +64,11 @@ body {
 .wrapper .serch-wrap .mid-form {
     width: 1190px;
     margin: 0 auto;
-    position: relative;
 }
 
 .wrapper .serch-wrap .img-l {
     float: left;
+    margin-right: 80px;
 }
 
 .wrapper .serch-wrap .img-l .logo-bd {
@@ -82,22 +82,16 @@ body {
     text-indent: -9999px;
 }
 
-.wrapper .serch-wrap .mid-form .search-mid {
-    position: relative;
-}
-
 .wrapper .serch-wrap .mid-form .search-mid .search-mid-bd {
     z-index: 30;
-    position: relative;
     transform: translateZ(0);
 }
 
-.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .top-tab {
+.wrapper .serch-wrap .search-mid .top-tab ul {
     height: 22px;
-    margin-left: 17px;
 }
 
-.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .top-tab .select {
+.wrapper .serch-wrap .search-mid .top-tab .select {
     color: #FFF;
     font-weight: 700;
     background-image: -webkit-linear-gradient(left, #ff9000 0, #ff5000 100%);
@@ -109,7 +103,7 @@ body {
     border-top-left-radius: 6px;
 }
 
-.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .top-tab li {
+.wrapper .serch-wrap .search-mid .top-tab li {
     color: #F40;
     text-align: center;
     float: left;
@@ -118,9 +112,9 @@ body {
     line-height: 22px;
     margin-right: 4px;
     cursor: pointer;
+    margin-left: 7px;
+    list-style: none;
 }
-
-.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .mid-form-wrap {}
 
 .wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .mid-form-wrap .left-input {
     margin-right: 74px;
@@ -137,14 +131,14 @@ body {
     text-indent: 10px;
     height: 24px;
     line-height: 24px;
-    width: 472px;
+    width: 400px;
     border: none;
     outline: 0;
     background: #FFF;
     *margin-top: -2px;
 }
 
-.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .search-btn {
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .mid-form-wrap .left-input .search-btn {
     position: absolute;
     right: 0;
     top: 0;
@@ -158,7 +152,7 @@ body {
     float: left;
 }
 
-.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .search-btn-bd {
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .mid-form-wrap .left-input .search-btn-bd {
     font-size: 18px;
     font-weight: 700;
     color: #FFF;
@@ -170,18 +164,141 @@ body {
     float: left;
 }
 
-
-/* .wrapper .serch-wrap .img-r {
+.wrapper .serch-wrap .img-r {
     text-align: center;
     width: 74px;
     height: 88px;
     color: #666;
     border: 1px solid #eee;
     float: right;
+    margin-right: 140px;
+    margin-top: -65px;
 }
 
 .wrapper .serch-wrap .img-r .qrcode {
-    margin-left: 6px;
     width: 62px;
     height: 62px;
-} */
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .bottom-list ul {
+    margin-left: 250px;
+}
+
+.wrapper .serch-wrap .mid-form .search-mid .search-mid-bd .bottom-list li {
+    list-style: none;
+    float: left;
+    margin: 8px;
+}
+
+.wrapper .ul-li-wrap .ul-li-wrap-bd {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.wrapper .ul-li-wrap {
+    background-image: -webkit-linear-gradient(left, #ff9000 0, #ff5000 100%);
+    background-image: -o-linear-gradient(left, #ff9000 0, #ff5000 100%);
+    background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffff9000', endColorstr='#ffff5000', GradientType=1);
+    height: 30px;
+    position: relative;
+    line-height: 30px;
+}
+
+.wrapper .ul-li-wrap .ul-li-wrap-bd ul li {
+    list-style: none;
+    float: left;
+    margin-left: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #eee;
+    padding: 2px;
+}
+
+.wrapper .ul-li-wrap .ztsc {
+    float: left;
+    width: 190px;
+    text-align: center;
+    font-size: 16px;
+    background: #ff5000;
+    color: #eee
+}
+
+.wrapper .middle-wrap {
+    width: 1190px;
+    margin: 0 auto;
+    height: 632px;
+}
+
+.wrapper .middle-wrap .middle-wrap-l {
+    float: left;
+    width: 900px;
+    height: 100%;
+    margin-top: -5px;
+    position: absolute;
+    clear: left;
+}
+
+.wrapper .middle-wrap .middle-wrap-l .m-w-l-left {
+    border: 1px solid #ff5000;
+    border-top: none;
+    float: left;
+    text-align: center;
+}
+
+.wrapper .middle-wrap .middle-wrap-l .m-w-l-left ul li {
+    list-style: none;
+    margin-left: 4px;
+    padding: 7px;
+    width: 170px;
+    font-size: 15px;
+}
+
+.wrapper .middle-wrap .m-w-l-middle {
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    height: 567px;
+    width: 520px;
+}
+
+.wrapper .middle-wrap .m-w-l-middle .m-w-l-middle-up {
+    width: 530px;
+    height: 290px;
+    margin-top: 6px;
+    margin-left: -3px;
+}
+
+.wrapper .middle-wrap .m-w-l-middle .m-w-l-middle-down {
+    width: 530px;
+    height: 250px;
+    margin-left: -2px;
+    margin-top: 7px;
+    background: #ffffff;
+}
+
+.wrapper .middle-wrap .m-w-l-middle .m-w-l-middle-down li {
+    border: 1px solid #ff5000;
+    list-style: none;
+    float: left;
+    margin-top: 2px;
+    width: 517px;
+}
+
+.wrapper .middle-wrap .m-w-l-middle .m-w-l-middle-down .m-w-l-middle-down-bd {
+    padding-top: 14px;
+    margin-left: 20px;
+}
+
+.wrapper .middle-wrap .m-w-l-right .m-w-l-right-up {
+    margin-top: 16px;
+}
+
+.wrapper .middle-wrap .m-w-l-right .m-w-l-right-down {
+    margin-top: 15px;
+}
+
+.wrapper .middle-wrap .m-w-l-right .m-w-l-right-down img {
+    margin: 3px;
+}
