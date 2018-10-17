@@ -4,6 +4,8 @@ import HelloWorld from '@/views/testApi'
 import taobao from '@/views/taobao'
 import main from '@/views/main'
 import login from '@/views/login';
+import test from '@/views/test';
+
 
 
 
@@ -22,13 +24,18 @@ export default new Router({
             component: taobao
 
         }, {
-            path: '/main',
+            path: '/',
             name: 'main',
             component: main
         }, {
             path: '/login',
             name: 'login',
             component: login
+        },
+        {
+            path: '/test',
+            name: 'test',
+            component: test
         },
 
 

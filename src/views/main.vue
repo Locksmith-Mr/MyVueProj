@@ -1,21 +1,17 @@
 <template>
-    <div class="login">
-        <div class="head">
-            <div class="head-l">
-                <a href="#/login">
-                    <span class="el-icon-message">a</span>
-                    <span>Icon</span>
-                </a>
+<div style="margin:0 auto;width:50%;margin-top:45px;">
+  <div style="float:left;text-align:center;margin-right:200px;margin-top:170px;" ><h1 >文字啊啊啊 啊啊</h1><h1 >文字啊啊啊 啊啊</h1><h1 >文字啊啊啊 啊啊</h1></div>
 
-            </div>
-            <div class="head-r">
-                <a href="#">我的博客</a>
-                <a href="#">登陆</a>
-            </div>
-        </div>
-        <div class="main"></div>
-    </div>
 
+  <section class="grid">
+      <figure class="effect-oscar"> <img src="../../static/img/image-1.jpg" alt="" class="img-responsive">
+        <figcaption>
+          <h2>1+<span> 1</span></h2>
+          <p>2</p>
+          <a href="#">View more</a> </figcaption>
+      </figure>
+    </section>
+</div>
 </template>
 
 <script>
@@ -28,6 +24,6 @@ export default {
   components: {},
 };
 </script>
+     <style >
 
-<style>
 </style>
