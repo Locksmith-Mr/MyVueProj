@@ -2,14 +2,14 @@
  <div class="every-head">
         <div class="head">
             <div class="head-l">
-                <a href="#/login">
-                    <span class="el-icon-message">a</span>
-                    <span>Icon</span>
+                <a href="#/">
+                    <span class="el-icon-message"></span>
+                    <span>Blog</span>
                 </a>
 
             </div>
             <div class="head-r">
-                <span >我的博客</span>
+                <span round @click="blog">我的博客</span>
                 <span round @click="login">登录</span>
             </div>
         </div>
@@ -27,6 +27,8 @@ export default {
   methods: {
   login:function(){
       this.$router.push({path:'/login'})
+  },blog:function(){
+      this.$router.push({path:'/blog'})
   }
 
   },

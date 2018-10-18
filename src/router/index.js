@@ -4,7 +4,7 @@ import HelloWorld from '@/views/testApi'
 import taobao from '@/views/taobao'
 import main from '@/views/main'
 import login from '@/views/login';
-import test from '@/views/test';
+import blog from '@/views/blog';
 
 
 
@@ -28,14 +28,14 @@ export default new Router({
             name: 'main',
             component: main
         }, {
+            path: '/blog',
+            name: 'blog',
+            component: blog
+        },
+        {
             path: '/login',
             name: 'login',
             component: login
-        },
-        {
-            path: '/test',
-            name: 'test',
-            component: test
         },
 
 
