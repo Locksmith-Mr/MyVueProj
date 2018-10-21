@@ -9,13 +9,19 @@
 
 /* head */
 
+.every-head {
+    z-index: 2222;
+    background: #f8f6f6;
+    height: 70px;
+}
+
 .every-head span {
     color: #080808;
     margin-right: 15px;
 }
 
 .every-head .head {
-    margin-top: 15px;
+    padding: 20px;
     margin-left: 20px;
     height: 60px;
     vertical-align: center;
@@ -33,6 +39,7 @@
 .every-head .head .head-r {
     float: right;
     margin-right: 40px;
+    padding-top: 10px;
 }
 
 

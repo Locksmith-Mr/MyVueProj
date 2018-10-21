@@ -16,9 +16,9 @@ export default {
   },
   methods: {
     jsonpData: function () {
-      //var url = '/api/v1/topics' // 这里就是刚才的config/index.js中的/api
+      var url = '/api/v1/topics' // 这里就是刚才的config/index.js中的/api
       this.$axios
-        .get('https://easy-mock.com/mock/5bc03e1ed359a01846d538f0/example/test')
+        .get(url)
         .then(function (response) {
           console.log(response)
         })

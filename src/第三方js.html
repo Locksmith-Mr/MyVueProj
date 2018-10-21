@@ -1,0 +1,31 @@
+<!-- 360° X 180° 全景浏览图片 -->
+<div class="htmleaf-container">
+    <form method="get" action="example1.html">
+        <p style="text-align: center;">
+            <input type="file" name="pano" id="pano">
+        </p>
+    </form>
+    <div id="content">
+        <p style="text-align: center;">
+            <a href="#" id="go"></a>
+        </p>
+        <div id="your-pano"></div>
+    </div>
+    <remote-script src="../../static/js/js/example1.js"></remote-script>
+    <remote-script src="../../static/js/js/photo-sphere-viewer.min.js"></remote-script>
+    <remote-script src="../../static/js/js/three.min.js"></remote-script>
+</div>
+
+
+<!-- 跳动字 -->
+<div>
+    <p id="offscreen-text" class="offscreen-text"></p>
+    <p id="text" class="text"></p>
+    <svg id="svg"> </svg>
+    <input type="text" class="input" id="input" visibility: hidden />
+    <remote-script src="../../static/js/CSSPlugin.min.js"></remote-script>
+    <remote-script src="../../static/js/EasePack.min.js"></remote-script>
+    <remote-script src="../../static/js/index.js"></remote-script>
+    <remote-script src="../../static/js/TweenLite.min.js"></remote-script>
+
+</div>
