@@ -1,5 +1,32 @@
 <template>
     <div class="blog-wrap">
+        <div class="top">
+            <div class="top-l">
+                <div class="carousel">
+                    <el-carousel height="220px">
+                        <el-carousel-item v-for="item in 4" :key="item">
+                            <h3>{{ item }}</h3>
+                        </el-carousel-item>
+                    </el-carousel>
+                     
+                </div>
+                <div class="carousel-r-img">
+                   <ul style="float:right">
+                        <li>  <img src="../../static/img/image-1.jpg" alt="">
+
+                        </li>
+                        <li>
+                              <img src="../../static/img/image-1.jpg" alt="">
+                        </li>
+                    </ul>
+                 
+                </div>
+            </div>
+            <div class="top-r">
+                 
+            </div>
+
+        </div>
 
         <div class="mid-wrap">
 
@@ -7,7 +34,7 @@
                 <li>
                     <div class="mid-wrap-inline">
                         <a href="">
-                            <h2 >{{title}}</h2>
+                            <h2>{{title}}</h2>
                         </a>
                         <div class="mid-wrap-inline-img">
                             <span>
@@ -130,9 +157,9 @@
         <div class="right-wrap">
             <div class="border-right-info selfInfo">
                 <img src="../../static/img/image-1.jpg" alt="">
-                <p>姓名:</p>
-                <p>岗位:</p>
-                <p>个人介绍:</p>
+                <p>姓名:123</p>
+                <p>岗位:QQQ</p>
+                <p>个人介绍:999999999454612132123132</p>
             </div>
             <div class="border-right-info sort">
                 <h1>分类</h1>
@@ -142,7 +169,7 @@
 
             </div>
             <div class="border-right-info weixin">
-                <img src="../../static/img/image-1.jpg" alt="" style=" width: 100%;height:100%;">
+                <img src="../../static/img/qrcode.png" alt="" style=" width: 100%;height:100%;">
             </div>
         </div>
 
@@ -163,8 +190,10 @@ export default {
   data() {
     return {
       title: '盛会一周年，习近平带领我们办了这些大事',
+      imgHeight: '200px',
     };
   },
+
   methods: {},
   components: {},
   created: {},
@@ -172,4 +201,19 @@ export default {
 </script>
 
 <style>
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 150px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+  background-color: #d3dce6;
+}
 </style>
