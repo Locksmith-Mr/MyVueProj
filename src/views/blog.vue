@@ -3,28 +3,31 @@
         <div class="top">
             <div class="top-l">
                 <div class="carousel">
-                    <el-carousel height="220px">
-                        <el-carousel-item v-for="item in 4" :key="item">
+                    <el-carousel>
+                        <el-carousel-item v-for="item in 1" :key="item">
                             <h3>{{ item }}</h3>
                         </el-carousel-item>
                     </el-carousel>
-                     
+
                 </div>
                 <div class="carousel-r-img">
-                   <ul style="float:right">
-                        <li>  <img src="../../static/img/image-1.jpg" alt="">
+                    <ul>
+                        <li> <img src="../../static/img/image-1.jpg" alt="">
 
                         </li>
                         <li>
-                              <img src="../../static/img/image-1.jpg" alt="">
+                            <img src="../../static/img/image-1.jpg" alt="">
                         </li>
                     </ul>
-                 
+
                 </div>
             </div>
-            <div class="top-r">
-                 
-            </div>
+            <!-- <div class="top-r">
+                <div style="background: #838383;width: 300px;height: 75px;"></div>
+                <div style="background: #222222;width: 300px;height: 75px;"></div>
+                <div style="background: #919125;width: 300px;height: 75px;"></div>
+                <div style="background: #481357;width: 300px;height: 75px;"></div>
+            </div> -->
 
         </div>
 
@@ -154,7 +157,7 @@
             </ul>
 
         </div>
-        <div class="right-wrap">
+        <!-- <div class="right-wrap">
             <div class="border-right-info selfInfo">
                 <img src="../../static/img/image-1.jpg" alt="">
                 <p>姓名:123</p>
@@ -169,9 +172,9 @@
 
             </div>
             <div class="border-right-info weixin">
-                <img src="../../static/img/qrcode.png" alt="" style=" width: 100%;height:100%;">
+                <img src="../../static/img/image-1.jpg" alt="" style=" width: 100%;height:100%;">
             </div>
-        </div>
+        </div> -->
 
         <div class="block">
             <span class="demonstration"></span>

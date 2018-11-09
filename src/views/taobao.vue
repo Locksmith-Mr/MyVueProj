@@ -158,7 +158,15 @@
             <div class="middle-wrap-r"></div>
         </div>
         <!-- -------------------------------- -->
-        <div class="bottom-wrap"></div>
+        <div class="bottom-wrap">
+       
+
+                <el-button  @click="onSubmit" ref="ResetForm">保存</el-button>      
+                <h1>{{message}}</h1>
+            
+            
+           
+        </div>
     </div>
 
 </template>
@@ -167,9 +175,16 @@
 require('!vue-style-loader!css-loader!../../static/css/taobao.css');
 export default {
   data() {
-    return {};
+    return {
+        message:'123'
+    };
   },
-  methods: {},
+  methods: {
+      onSubmit:function(){
+          console.log(this.$refs);
+          this.$refs.ResetForm.$el.innerText=this.message;
+      }
+  },
   components: {},
 };
 </script>

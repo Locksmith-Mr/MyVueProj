@@ -5,6 +5,8 @@ import taobao from '@/views/taobao'
 import main from '@/views/main'
 import login from '@/views/login';
 import blog from '@/views/blog';
+import api from '@/server/api';
+
 
 
 
@@ -36,7 +38,12 @@ export default new Router({
             path: '/login',
             name: 'login',
             component: login
+        }, {
+            path: '/api',
+            name: 'api',
+            component: api
         },
+
 
 
 

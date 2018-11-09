@@ -14,8 +14,11 @@
         "build": "node build/build.js"
     },
     "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
         "http-proxy-middleware": "^0.19.0",
         "jquery": "^2.2.1",
+        "mongoose": "^5.3.10",
         "photo-sphere-viewer": "^3.4.1",
         "showdown": "^1.8.6",
         "three": "^0.97.0",
